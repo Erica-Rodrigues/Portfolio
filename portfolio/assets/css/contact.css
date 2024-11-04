@@ -1,0 +1,63 @@
+/* Contact section style */
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.fiche_contact{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 194, 209);
+    border-radius: 10%;
+    font-family: Pacifico;
+    font-size: 25px;
+}
+
+#h3_contact{
+    font-size: 30px;
+    margin: 10px auto;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.personnal_info{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 20px;
+
+}
+.infos{
+    height: 30px;
+    border-radius: 10px;
+    border: white;
+    font-size: 15px;
+}
+
+textarea{
+    margin-top: 20px;
+    padding: 0px 5px;
+    height: 200px;
+    border-radius: 10px;
+    border: white;
+    font-size: 15px;
+    resize: none;
+}
+
+#submit{
+    margin-top: 20px;
+    height: 20px;
+    width: 80px;
+    font-size: 15px;
+    color: rgb(255, 194, 209);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: white;
+}

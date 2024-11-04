@@ -1,0 +1,38 @@
+/* About section style */
+.about{
+    font-size: 1rem;
+    font-family: Pacifico; 
+    display: flex;
+    justify-content: center;
+}
+#about_content{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    border-color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+#about_text{
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+#socials{
+    align-items: center;
+    gap: 100px;
+}
+
+.logo{
+    color: white;
+}
+
+
+
+
+
+

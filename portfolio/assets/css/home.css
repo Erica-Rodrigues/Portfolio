@@ -1,0 +1,16 @@
+/* Home section style */
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 80px;
+    color: rgb(255, 194, 209);
+}
+
+#h3_home{
+    font-family: Rethink Sans;
+    font-size: 30px;
+    color: white;
+}

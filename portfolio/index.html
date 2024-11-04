@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/project.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- HEADER icon + navigation bar  -->
+<header>
+    <img src="./assets/img/developer.png" id="logo">
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html" class="section_link">Home</a>
+            </li>
+            <li>
+                <a href="#section_about" class="section_link">About Me</a>
+            </li>
+            <li>
+                <a href="#section_projects" class="section_link">Projects</a>
+            </li>
+            <li>
+                <a href="#section_contact" class="section_link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- section HOME Titles -->
+<section class="home">
+    <h1>Erica</h1>
+    <h2> Sousa Rodrigues</h2>
+    <h3 id="h3_home">Front-End student developer</h3>
+</section>
+
+<!-- section ABOUT image + a paragraph + 3 links  -->
+<section class="about" id="section_about">
+    <div id="about_content">
+        <div id="image" class="content">
+            <img src="./assets/img/hacker.png">
+        </div>
+        <div id="about_text" class="content">
+            <p>
+                Hey You
+                <br>
+                <br>
+                <br>
+                My name is Erica, I’m trying to become a web developer.
+                <br> 
+                <br>
+                So here I am trying to learn all that I can, keep myself updated so I can create the best designs.
+                <br>
+                <br>
+                Here below you can find my profil on different apps where you can check my previous projects and see for yourself my little skills.
+                Also feel free to contact me if you have any questions, recommendations or want to collab. 
+            </p>
+            <br>
+            <br>
+            <br>
+            <div id="socials" class="content">
+                <a href="https://github.com/Erica-Rodrigues" class="logo">
+                    <img src="./assets/img/github.256x256.png">
+                </a>
+                <a id="discord_link" href="discordapp.com/users/.1277531526753423382" class="logo">
+                    <img src="./assets/img/discord.256x256.png">
+                </a>
+                <a id="dribble_link" href="https://dribbble.com/Erica_Sofia" class="logo">
+                    <img src="./assets/img/dribbble.256x256.png">
+                </a> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section PROJECTS images + link to one project -->
+<section class="projects" id="section_projects">
+    <div class="projects_content">
+        <div class="skills">
+            <img src="./assets/img/file-type-html.226x256.png" class="zoom">
+            <img src="./assets/img/css3.226x256.png" class="zoom">
+            <img src="./assets/img/javascript.256x256.png" class="zoom">
+            <img src="./assets/img/php.256x256.png" class="zoom">
+            <img src="./assets/img/mysql-original-wordmark.256x133.png" class="zoom">
+            <img src="./assets/img/github.256x256.png" class="zoom">
+        </div>
+        <div class="work">
+            <a href=" https://erica-rodrigues.github.io/">
+                <img src="./assets/img/tiktaktoe.png" class="zoom">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- section CONTACT a form of 3 inputs, a textarea and a button submit -->
+<section class="contact" id="section_contact">
+    <div class="fiche_contact">
+        <h3 id="h3_contact">Contact me</h3>
+        <form>
+            <fieldset class="personnal_info">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="personnal_info" class="infos">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="personnal_info" class="infos">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="personnal_info" class="infos">
+            </fieldset>
+            <textarea placeholder="Write your message:"></textarea>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Created by Erica Rodrigues</p>
+</footer>
+</body>
+</html>
+
